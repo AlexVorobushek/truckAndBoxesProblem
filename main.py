@@ -1,6 +1,7 @@
 print(
-    max(
+    min(
         [
-            int(input()) for i in range(int(input('enter numbers count: ')))]
+            int(input()) for i in range(int(input('enter numbers count: ')))
+        ]
     )
 )

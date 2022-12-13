@@ -1,8 +1,6 @@
 print(
     max(
-        map(
-            int,
-            input().split()
-        )
+        [
+            int(input()) for i in range(int(input('enter numbers count: ')))]
     )
 )

@@ -7,14 +7,14 @@ class Plane:
     def __eq__(self, __o: object) -> bool:
         return self.x == __o.x and self.y == __o.y and self.z == __o.z
 
-    def get_orientation(self) -> str:
+    def getOrientation(self) -> str:
         if self.x != None:
             return "x"
         if self.y != None:
             return "y"
         return "z"
 
-    def get_dimension(self) -> int:
+    def getDimension(self) -> int:
         if self.x != None:
             return self.x
         if self.y != None:
@@ -22,7 +22,7 @@ class Plane:
         return self.z
 
     def __repr__(self) -> str:
-        return f"{self.get_dimension()}{self.get_orientation()}"
-    
+        return f"{self.getDimension()}{self.getOrientation()}"
+
     def __lt__(self, __o: object) -> bool:
-        return self.get_dimension() < __o.get_dimension()
+        return self.getDimension() < __o.getDimension()

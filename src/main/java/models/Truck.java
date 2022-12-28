@@ -2,6 +2,8 @@ package models;
 
 import java.util.List;
 
+import structsForSendToPython.BoxParams;
+
 public class Truck {
     private List<Box> boxList;
     private double costOfCall; // стоимость подачи

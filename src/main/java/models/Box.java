@@ -1,33 +1,15 @@
 package models;
 
 public class Box {
-    private double length;
-    private double width;
-    private double height;
+    double x;
+    double y;
+    double z;
+    double density;
 
-    private double density;
-
-    public Box(double length, double width, double height, double density) {
-        this.length = length;
-        this.width = width;
-        this.height = height;
+    public Box(double x, double y, double z, double density) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
         this.density = density;
-    }
-
-
-    public double getLength() {
-        return length;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public double getDensity() {
-        return density;
     }
 }

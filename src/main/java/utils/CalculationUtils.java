@@ -32,6 +32,6 @@ public class CalculationUtils {
         CalculationUtils.runPythonAlgorithm();
         File file = new File("src\\main\\pythonJavaCommonDirectory\\pythonResult.txt");
         Scanner scanner = new Scanner(file);
-        return scanner.nextLine()=="True";
+        return scanner.nextLine().equals("True");
     }
 }

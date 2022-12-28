@@ -1,0 +1,22 @@
+[
+    {
+        "size": [1, 2, 6],
+        "density": 1
+    },
+    {
+        "size": [2, 2, 3],
+        "density": 1
+    },
+    {
+        "size": [1, 4, 3],
+        "density": 1
+    },
+    {
+        "size": [1, 2, 3],
+        "density": 1
+    },
+    {
+        "size": [1, 2, 3],
+        "density": 1
+    }
+]
